@@ -33,11 +33,34 @@ def _save(obj: BaseModel, nombre: str) -> Path:
     return path
 
 
+def diagnostico(llm, canal) -> int:
+    """Prueba real y barata: 1 llamada a Claude que debe devolver ideas válidas para el canal."""
+    import time
+
+    from .agents import IdeaGenerator
+
+    print(f"✔ Configuración cargada: canal '{canal.nombre}', nicho '{canal.nicho}'")
+    print(f"… Llamando a Claude ({llm.model}) sin búsqueda web...")
+    t0 = time.monotonic()
+    try:
+        ideas = IdeaGenerator(llm, canal).generate(3, investigar=False)
+    except Exception as e:  # mostramos el error tal cual para poder corregirlo
+        print(f"✘ Falló la llamada: {type(e).__name__}: {e}")
+        return 1
+    print(f"✔ Claude respondió en {time.monotonic() - t0:.1f}s con {len(ideas.ideas)} ideas válidas:")
+    for i in ideas.ideas:
+        print(f"   - {i.titulo_provisional}  (viral {i.puntuacion_viral}/10)")
+    print("Todo listo. Prueba ahora: ytauto video \"<tu idea>\" --sin-web")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="ytauto", description="Agentes de IA para canales de YouTube y redes.")
     p.add_argument("--config", help="Ruta a canal.yaml (por defecto config/canal.yaml)")
     p.add_argument("--sin-web", action="store_true", help="No usar búsqueda web (más rápido y barato)")
     sub = p.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("diagnostico", help="Comprueba configuración, clave y conexión real con Claude")
 
     s = sub.add_parser("nicho", help="Evalúa nichos y recomienda posicionamiento")
     s.add_argument("candidatos", nargs="*", help="Nichos a evaluar (por defecto los de canal.yaml)")
@@ -92,6 +115,8 @@ def main(argv: list[str] | None = None) -> int:
     from .llm import ClaudeLLM
     llm = ClaudeLLM()
 
+    if args.cmd == "diagnostico":
+        return diagnostico(llm, canal)
     if args.cmd == "nicho":
         r = agents.NicheAnalyst(llm, canal).analyze(args.candidatos or None, investigar=web)
         _print(r); print(f"\nGuardado en {_save(r, 'nicho')}", file=sys.stderr)

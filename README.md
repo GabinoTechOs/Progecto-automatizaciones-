@@ -42,6 +42,7 @@ cp config/canal.example.yaml config/canal.yaml   # describe tu canal
 ## Uso
 
 ```bash
+ytauto diagnostico                         # prueba real: config + clave + 1 llamada a Claude
 ytauto nicho                               # ¿qué nicho conviene? (usa nichos_candidatos de canal.yaml)
 ytauto nicho "IA para abogados" "recetas keto"   # o evalúa los que quieras
 ytauto ideas -n 20 --tema "ahorro"         # ideas basadas en tendencias actuales
