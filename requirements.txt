@@ -1,0 +1,9 @@
+anthropic>=2.3.0
+pydantic>=2.7
+PyYAML>=6.0
+python-dotenv>=1.0
+# Opcional: subida y estadísticas de YouTube
+google-api-python-client>=2.130
+google-auth-oauthlib>=1.2
+# Desarrollo
+pytest>=8.0

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytauto"
+version = "0.1.0"
+description = "Agentes de IA para automatizar y monetizar canales de YouTube y redes sociales"
+requires-python = ">=3.10"
+dependencies = ["anthropic>=2.3.0", "pydantic>=2.7", "PyYAML>=6.0", "python-dotenv>=1.0"]
+
+[project.optional-dependencies]
+youtube = ["google-api-python-client>=2.130", "google-auth-oauthlib>=1.2"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+ytauto = "ytauto.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

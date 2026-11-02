@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+output/
+config/client_secret.json
+config/token.json
+config/canal.yaml
+*.egg-info/
+.pytest_cache/

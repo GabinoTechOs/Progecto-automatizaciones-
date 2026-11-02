@@ -1,0 +1,38 @@
+# Copia este archivo a config/canal.yaml y edítalo con los datos de TU canal.
+nombre: "Mi Canal"
+idioma: "español"
+pais_objetivo: "LATAM + España + hispanos en EE.UU."
+
+# Si aún no tienes nicho, deja una lista de candidatos y corre: ytauto nicho
+nicho: "finanzas personales para jóvenes latinos"
+nichos_candidatos:
+  - "finanzas personales para jóvenes latinos"
+  - "inteligencia artificial para emprendedores"
+  - "historia y misterios"
+  - "tecnología y gadgets baratos"
+
+audiencia: "personas de 18 a 35 años que quieren ganar y ahorrar más dinero"
+tono: "cercano, directo, con datos concretos y algo de humor"
+formato: "faceless"          # faceless | con_cara | mixto
+duracion_objetivo_min: 10    # videos largos
+shorts_por_video: 3
+
+# Plataformas a las que se reutiliza el contenido
+plataformas: ["youtube", "youtube_shorts", "tiktok", "instagram_reels"]
+
+# Calendario de publicación
+videos_largos_por_semana: 2
+shorts_por_semana: 7
+
+# Fuentes de ingresos que quieres activar (ver docs/ESTRATEGIA.md)
+monetizacion:
+  - adsense
+  - afiliados
+  - producto_digital
+  - patrocinios
+
+# Reglas propias que los agentes deben respetar siempre
+reglas:
+  - "No prometer ganancias garantizadas ni dar consejos financieros personalizados."
+  - "Citar la fuente de cada dato o cifra."
+  - "Nada de clickbait engañoso: el título y la miniatura deben cumplirse en el video."
