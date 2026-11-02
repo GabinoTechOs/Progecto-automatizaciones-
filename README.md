@@ -55,6 +55,16 @@ ytauto subir final.mp4 output/<carpeta> --miniatura mini.png --publicar 2026-11-
 
 `--sin-web` desactiva la búsqueda web (más rápido y barato, pero sin datos actuales).
 
+### Sin clave de API: modo manual (gratis con claude.ai)
+```bash
+export YTAUTO_BACKEND=manual        # en Windows: set YTAUTO_BACKEND=manual
+ytauto --sin-web video "tu idea"
+```
+El programa se detiene en cada paso y te dice qué archivo copiar (`output/_manual/<id>-prompt.md`).
+Pégalo en claude.ai, guarda la respuesta JSON en el archivo `<id>-respuesta.json` que te indica y vuelve a
+ejecutar el mismo comando: avanza al siguiente paso. Mira un resultado real en
+[`ejemplos/`](ejemplos/como-ahorrar-tus-primeros-1-000-dolares-aunque-ganes-poco/README.md).
+
 ### Subir a YouTube (opcional)
 1. En Google Cloud: crea un proyecto, habilita **YouTube Data API v3** y crea credenciales OAuth de tipo *App de escritorio*.
 2. Guarda el JSON en `config/client_secret.json`. La primera vez se abrirá el navegador para autorizar.

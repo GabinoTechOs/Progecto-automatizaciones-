@@ -102,3 +102,17 @@ def test_upload_body_scheduled():
     assert body["status"]["containsSyntheticMedia"] is True
     assert len(body["snippet"]["title"]) == 100 and len(body["snippet"]["tags"]) == 30
     assert build_upload_body("t", "d", [], None, False)["status"]["privacyStatus"] == "public"
+
+
+def test_manual_backend_pauses_and_resumes(tmp_path):
+    import pytest
+
+    from ytauto.llm import ManualLLM, PendingResponse
+
+    llm = ManualLLM(tmp_path)
+    with pytest.raises(PendingResponse) as e:
+        llm.structured("sys", "haz SEO", models.SEOPackage)
+    assert "JSON Schema" in e.value.prompt_path.read_text()
+    seo = FIXTURES[models.SEOPackage]
+    e.value.response_path.write_text("```json\n" + seo.model_dump_json() + "\n```")
+    assert llm.structured("sys", "haz SEO", models.SEOPackage) == seo

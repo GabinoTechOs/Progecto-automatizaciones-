@@ -1,0 +1,71 @@
+{
+  "shorts": [
+    {
+      "titulo": "N, G o F: el truco para encontrar dinero que no sabías que tenías",
+      "gancho": "Estás perdiendo dinero cada semana y ni te das cuenta.",
+      "guion": "Estás perdiendo dinero cada semana y ni te das cuenta. Haz esto: durante siete días anota todo lo que gastas, absolutamente todo. Al final, marca cada gasto con una letra. N: necesario. G: gusto. F: fuga. Las fugas son lo que ni recuerdas haber disfrutado: la suscripción que no usas, la comisión del banco, el delivery por pereza. No tienes que recortar tus gustos; solo cerrar las fugas. Ese es tu primer ahorro. Haz el reto y cuéntame cuántas F encontraste.",
+      "texto_en_pantalla": [
+        "7 días anotando TODO",
+        "N = necesario",
+        "G = gusto",
+        "F = FUGA 💸",
+        "¿Cuántas F tienes?"
+      ],
+      "cta": "Comenta cuántas fugas encontraste; el sistema completo está en el video largo del canal.",
+      "plataformas": [
+        "youtube_shorts",
+        "tiktok",
+        "instagram_reels"
+      ],
+      "hashtags": [
+        "#ahorro",
+        "#finanzaspersonales",
+        "#tipsdedinero"
+      ]
+    },
+    {
+      "titulo": "Por qué nunca te sobra dinero a fin de mes",
+      "gancho": "Si ahorras lo que te sobra a fin de mes, nunca vas a ahorrar.",
+      "guion": "Si ahorras lo que te sobra a fin de mes, nunca vas a ahorrar. Porque a fin de mes nunca sobra. Hazlo al revés: el mismo día que cobras, antes de pagar nada, apartas una cantidad fija. Aunque sean cinco dólares. Mejor aún, programa una transferencia automática a una cuenta aparte, sin tarjeta, y ponle nombre: 'Fondo 1.000'. Lo que no ves, no lo gastas. Primero tú, después todo lo demás.",
+      "texto_en_pantalla": [
+        "Ahorrar lo que sobra ❌",
+        "Págate PRIMERO ✅",
+        "Transferencia automática",
+        "Cuenta: 'Fondo 1.000'"
+      ],
+      "cta": "Sígueme para la parte 2: cómo llegar a 1.000 dólares ganando poco.",
+      "plataformas": [
+        "youtube_shorts",
+        "tiktok",
+        "instagram_reels"
+      ],
+      "hashtags": [
+        "#pagateprimero",
+        "#ahorro",
+        "#educacionfinanciera"
+      ]
+    },
+    {
+      "titulo": "1.000 dólares en 8 meses ganando poco (la cuenta)",
+      "gancho": "Cuando ganas poco, recortar tiene límite. Esto no.",
+      "guion": "Cuando ganas poco, recortar tiene límite. Ganar un poco más, no. No hablo de hacerte rico: 50 o 100 dólares extra al mes. Vender lo que no usas, dar clases, hacer arreglos, editar videos, cuidar mascotas. La regla: el cien por ciento de ese extra va directo a tu ahorro. Mira la cuenta: 10 dólares por semana son 40 al mes, más 80 extra, 120 al mes. En poco más de 8 meses tienes tus primeros 1.000. Ajusta los números a tu caso, pero el sistema funciona.",
+      "texto_en_pantalla": [
+        "Recortar tiene LÍMITE",
+        "Ganar +50/100 al mes",
+        "10 × 4 + 80 = 120/mes",
+        "≈ 8 meses → $1.000"
+      ],
+      "cta": "Mira el video completo con los 5 pasos en el canal.",
+      "plataformas": [
+        "youtube_shorts",
+        "tiktok",
+        "instagram_reels"
+      ],
+      "hashtags": [
+        "#ingresosextra",
+        "#ahorro",
+        "#finanzasparajovenes"
+      ]
+    }
+  ]
+}

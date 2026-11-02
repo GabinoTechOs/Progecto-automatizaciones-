@@ -1,0 +1,74 @@
+{
+  "titulo": "Cómo ahorrar tus primeros 1.000 dólares aunque ganes poco",
+  "duracion_estimada_seg": 600,
+  "secciones": [
+    {
+      "nombre": "gancho",
+      "inicio_seg": 0,
+      "narracion": "Si ganas poco, seguro te han dicho: 'ahorra el 20 % de tu sueldo'. Y tú piensas: ¿el 20 % de qué, si no me alcanza ni para el mes? Bueno, hoy no te voy a decir eso. Te voy a mostrar un sistema para juntar tus primeros 1.000 dólares empezando con lo que te sobra de un café. Y el paso número 4 es el que casi nadie hace y es el que más dinero te va a dar.",
+      "visuales": "Primer plano de un recibo de sueldo con '20 %' tachado en rojo; contador animado de 0 a 1.000 USD.",
+      "retencion": "Loop abierto: se promete el paso 4 como el más importante."
+    },
+    {
+      "nombre": "intro",
+      "inicio_seg": 25,
+      "narracion": "Los primeros 1.000 dólares son los más difíciles, pero también los que más cambian tu vida: son la diferencia entre que una emergencia —una muela, el celular roto, un mes sin trabajo— te mande a pedir prestado con intereses, o que la pagues tú y sigas tranquilo. Vamos con el sistema, en cinco pasos.",
+      "visuales": "Íconos de emergencias (diente, celular roto, calendario) que caen sobre una alcancía.",
+      "retencion": "Se nombra el beneficio emocional y se anuncia la estructura en 5 pasos."
+    },
+    {
+      "nombre": "bloque_1_saber_a_donde_va",
+      "inicio_seg": 50,
+      "narracion": "Paso 1: durante siete días, anota TODO lo que gastas. Sin juzgarte, solo anota. Puede ser en una nota del celular. Al final de la semana marca cada gasto con una de tres letras: N de necesario, G de gusto, F de fuga. Las fugas son gastos que ni recuerdas haber disfrutado: comisiones, suscripciones que no usas, delivery por pereza. Casi todo el mundo encuentra fugas, y esas fugas son tu primer ahorro, sin sacrificar nada que te importe.",
+      "visuales": "Pantalla de celular con lista de gastos; letras N, G, F apareciendo en colores distintos.",
+      "retencion": "Pregunta directa al espectador: '¿cuántas F crees que vas a encontrar? Escríbelo en los comentarios'."
+    },
+    {
+      "nombre": "bloque_2_pagate_primero",
+      "inicio_seg": 160,
+      "narracion": "Paso 2: págate primero. El error clásico es ahorrar lo que sobra a fin de mes, y a fin de mes nunca sobra. Haz al revés: el día que cobras, apartas una cantidad fija ANTES de gastar nada. No importa si son 5 o 10 dólares. Lo importante es el hábito, porque luego vas a subir la cantidad. Si tu banco lo permite, programa una transferencia automática para ese mismo día: lo que no ves, no lo gastas.",
+      "visuales": "Animación del sueldo dividiéndose: primero va una porción a 'Ahorro', después el resto a gastos.",
+      "retencion": "Pattern interrupt: cambio de plano a cámara rápida y efecto de sonido de caja registradora."
+    },
+    {
+      "nombre": "bloque_3_cuenta_separada",
+      "inicio_seg": 260,
+      "narracion": "Paso 3: ese dinero no puede vivir en la misma cuenta que usas para pagar todo. Abre una cuenta o un 'bolsillo' separado, idealmente uno que pague algo de interés y que no tenga tarjeta asociada. Ponle nombre: 'Fondo 1.000'. Parece una tontería, pero ponerle nombre a un ahorro hace que te duela más tocarlo. Y revisa las comisiones: una cuenta que te cobra mantenimiento se come tu ahorro.",
+      "visuales": "Dos cuentas lado a lado; una se llama 'Fondo 1.000' con barra de progreso.",
+      "retencion": "Mini-dato llamativo en pantalla y anticipo: 'y ahora viene el paso que te prometí'."
+    },
+    {
+      "nombre": "bloque_4_ganar_mas",
+      "inicio_seg": 350,
+      "narracion": "Paso 4, el que casi nadie hace: cuando ganas poco, recortar tiene un límite; ganar un poco más, no. No hablo de hacerte millonario, hablo de 50 o 100 dólares extra al mes: vender lo que no usas, hacer un servicio que ya sabes hacer —clases, arreglos, edición, cuidar mascotas— o pedir horas extra. La regla es simple: el 100 % de ese dinero extra va directo al 'Fondo 1.000'. Con 10 dólares por semana de ahorro más 80 extra al mes, llegas a los 1.000 en menos de 8 meses.",
+      "visuales": "Lista de ideas de ingreso extra con íconos; calculadora mostrando 10 × 4 + 80 = 120 al mes → 1.000 en ~8,3 meses.",
+      "retencion": "Se cierra el loop abierto del gancho; cálculo en pantalla que el espectador puede replicar."
+    },
+    {
+      "nombre": "cta",
+      "inicio_seg": 470,
+      "narracion": "Si este sistema te sirve, suscríbete: cada semana subo un video para que tu dinero rinda más, aunque ganes poco. Y en la descripción te dejo una plantilla gratis para registrar tus gastos de la semana del paso 1.",
+      "visuales": "Botón de suscripción animado y vista previa de la plantilla.",
+      "retencion": "CTA después de entregar el valor principal, con un recurso gratuito concreto."
+    },
+    {
+      "nombre": "bloque_5_proteger_el_avance",
+      "inicio_seg": 495,
+      "narracion": "Paso 5: protege tu avance. Vas a tener meses malos, y está bien. La regla es: nunca bajes a cero el aporte; si un mes no puedes con 10, pon 2. Y celebra los hitos: 100, 250, 500. Pinta una barra en la pared o en el fondo de pantalla del celular. Ver el progreso es lo que hace que no abandones.",
+      "visuales": "Barra de progreso que se rellena con hitos 100, 250, 500, 1.000.",
+      "retencion": "Cierre emocional y visual de progreso."
+    },
+    {
+      "nombre": "cierre",
+      "inicio_seg": 560,
+      "narracion": "Resumen: anota tus gastos una semana, págate primero, separa el dinero, gana un poco más y protege tu avance. Y cuando llegues a tus primeros 1.000, la pregunta es: ¿qué haces con ellos para que no pierdan valor? Eso te lo explico en este video de aquí.",
+      "visuales": "Resumen en 5 viñetas; pantalla final con el siguiente video sugerido.",
+      "retencion": "Pregunta abierta que lleva al siguiente video (aumenta el tiempo de sesión)."
+    }
+  ],
+  "fuentes": [
+    "Método 'págate primero': George S. Clason, 'El hombre más rico de Babilonia' (1926).",
+    "Los cálculos del bloque 4 son ilustrativos; ajusta las cifras a tu moneda y situación."
+  ],
+  "notas_para_editor": "Ritmo rápido en los primeros 25 s. Cada paso con su número grande en pantalla. Usar cifras en USD pero mostrar subtítulos con equivalencias si el público es de varios países. Sin música en los cálculos para que se entiendan."
+}

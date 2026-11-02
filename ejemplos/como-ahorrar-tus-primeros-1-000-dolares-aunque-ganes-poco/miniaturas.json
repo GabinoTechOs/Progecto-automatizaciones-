@@ -1,0 +1,40 @@
+{
+  "conceptos": [
+    {
+      "concepto": "Frasco de vidrio casi lleno de billetes y monedas sobre una mesa humilde de cocina, con una barra de progreso implícita: el frasco tiene marcas de 250, 500 y 1.000.",
+      "texto_en_miniatura": "GANANDO POCO",
+      "composicion": "Frasco a la derecha ocupando 60 % del encuadre; espacio vacío a la izquierda para el texto; fondo desenfocado.",
+      "colores": [
+        "verde dólar",
+        "amarillo cálido",
+        "fondo azul oscuro"
+      ],
+      "emocion": "Logro alcanzable, esperanza",
+      "prompt_imagen": "A glass mason jar almost full of US dollar bills and coins on a simple wooden kitchen table, hand-drawn measurement marks on the jar, warm golden light from the right, dark blue blurred background, empty negative space on the left third, photorealistic, shallow depth of field, high contrast, 16:9 YouTube thumbnail composition, no text"
+    },
+    {
+      "concepto": "Contraste: billetera vacía a la izquierda vs alcancía rebosante a la derecha, separadas por una flecha.",
+      "texto_en_miniatura": "$0 → $1.000",
+      "composicion": "Dos objetos en lados opuestos, flecha amarilla brillante entre ellos; texto arriba en el centro.",
+      "colores": [
+        "rojo apagado",
+        "verde brillante",
+        "amarillo"
+      ],
+      "emocion": "Transformación, curiosidad por el 'cómo'",
+      "prompt_imagen": "Split composition: on the left an empty worn leather wallet in cool desaturated red light, on the right a ceramic piggy bank overflowing with dollar bills in bright green-tinted light, clean studio background, strong rim lighting, photorealistic, high contrast, 16:9 YouTube thumbnail, space at top center for a headline, no text"
+    },
+    {
+      "concepto": "Recibo de sueldo con '20 %' tachado y una mano sosteniendo un solo billete de 10 dólares, reforzando el gancho del video.",
+      "texto_en_miniatura": "OLVIDA EL 20 %",
+      "composicion": "Mano en primer plano con el billete; recibo de sueldo desenfocado detrás; texto grande a la izquierda.",
+      "colores": [
+        "blanco",
+        "rojo",
+        "verde"
+      ],
+      "emocion": "Rebeldía contra el consejo típico, alivio",
+      "prompt_imagen": "Close-up of a hand holding a single crisp 10 US dollar bill toward the camera, behind it a blurred paycheck stub on a desk, dramatic side lighting, bold red and green accents, photorealistic, shallow depth of field, high contrast, 16:9 YouTube thumbnail with empty space on the left, no text"
+    }
+  ]
+}

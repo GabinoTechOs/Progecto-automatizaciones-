@@ -111,9 +111,18 @@ def main(argv: list[str] | None = None) -> int:
         print(f"✅ Subido: https://youtu.be/{vid}")
         return 0
 
+    from .llm import PendingResponse, make_llm
+    try:
+        return _run(args, canal, make_llm(), web)
+    except PendingResponse as e:
+        print(f"\n⏸  Modo manual: copia el prompt de\n   {e.prompt_path}\n"
+              f"   en claude.ai, guarda la respuesta en\n   {e.response_path}\n"
+              "   y vuelve a ejecutar el mismo comando.")
+        return 2
+
+
+def _run(args, canal, llm, web) -> int:
     from . import agents
-    from .llm import ClaudeLLM
-    llm = ClaudeLLM()
 
     if args.cmd == "diagnostico":
         return diagnostico(llm, canal)
