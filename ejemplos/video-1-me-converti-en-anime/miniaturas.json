@@ -1,0 +1,40 @@
+{
+  "conceptos": [
+    {
+      "concepto": "Pantalla partida: mitad foto real del creador, mitad su versión anime original con efectos de energía, separadas por una línea de luz.",
+      "texto_en_miniatura": "ME CONVERTÍ",
+      "composicion": "Rostro real a la izquierda, versión anime a la derecha, ambos mirando a cámara; texto arriba al centro.",
+      "colores": [
+        "turquesa",
+        "magenta",
+        "fondo oscuro"
+      ],
+      "emocion": "Asombro, transformación",
+      "prompt_imagen": "YouTube thumbnail split composition: left half a realistic photo of a young latino content creator holding a smartphone, right half the same person transformed into an original anime character with vibrant cel-shaded style, spiky teal hair, glowing energy effects, dramatic lighting, a bright glowing line dividing both halves, high contrast, saturated colors, empty space at the top for a headline, no text"
+    },
+    {
+      "concepto": "El personaje anime original sale 'atravesando' la pantalla de un celular que sostiene una mano real.",
+      "texto_en_miniatura": "DE FOTO A ANIME",
+      "composicion": "Celular en primer plano abajo, el personaje emergiendo hacia arriba en 3/4; texto a la izquierda.",
+      "colores": [
+        "azul eléctrico",
+        "amarillo",
+        "blanco"
+      ],
+      "emocion": "Sorpresa, magia",
+      "prompt_imagen": "A real hand holding a smartphone in the foreground, an original anime character with spiky teal hair and urban jacket bursting out of the phone screen toward the viewer, cel-shaded anime style mixed with photographic hand, sparkles and glowing light trails, dark background, high contrast, dynamic perspective, 16:9 YouTube thumbnail, empty space on the left, no text"
+    },
+    {
+      "concepto": "Hoja de personaje (frente, perfil, espalda) del personaje original con un 'check' grande: promete el truco de la consistencia.",
+      "texto_en_miniatura": "SIEMPRE IGUAL",
+      "composicion": "Tres vistas del personaje alineadas; check verde grande a la derecha.",
+      "colores": [
+        "turquesa",
+        "verde",
+        "gris claro"
+      ],
+      "emocion": "Claridad, 'por fin lo entendí'",
+      "prompt_imagen": "Anime character reference sheet of one original character with spiky teal hair and urban jacket, front view, side view and back view aligned horizontally, clean light gray background, cel-shaded anime style, crisp line art, consistent design across views, 16:9 composition with empty space on the right, no text"
+    }
+  ]
+}

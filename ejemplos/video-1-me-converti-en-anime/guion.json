@@ -1,0 +1,75 @@
+{
+  "titulo": "Me convertí en personaje de anime con IA (y así puedes hacerlo tú gratis)",
+  "duracion_estimada_seg": 600,
+  "secciones": [
+    {
+      "nombre": "gancho",
+      "inicio_seg": 0,
+      "narracion": "Esta es una foto mía de ayer. Y este… también soy yo. Un personaje de anime que se mueve, que habla y que no existe en ningún anime: lo creé yo, desde cero, con IA. Hoy te enseño a hacer exactamente esto con tu propia foto, en cuatro pasos y empezando gratis. Y quédate hasta el paso 3, porque es el truco que hace que tu personaje no cambie de cara en cada escena.",
+      "visuales": "Foto real del creador → transición con destello a su versión anime en movimiento; contador '4 pasos' en pantalla.",
+      "retencion": "Antes/después en los primeros 3 s y loop abierto con el paso 3."
+    },
+    {
+      "nombre": "intro",
+      "inicio_seg": 30,
+      "narracion": "Antes de empezar, algo importante: no vamos a copiar a ningún personaje ni el estilo de ningún estudio. Vamos a crear un personaje ORIGINAL inspirado en ti. Primero porque es tuyo y puedes usarlo en tus videos sin problemas de derechos. Y segundo, porque sé que la IA en el anime es un tema delicado; de eso hablamos al final, con honestidad.",
+      "visuales": "Texto en pantalla 'Personaje ORIGINAL ✔ / Copiar personajes ✘'.",
+      "retencion": "Se anticipa el debate del final para mantener al espectador."
+    },
+    {
+      "nombre": "paso_1_la_foto",
+      "inicio_seg": 60,
+      "narracion": "Paso 1: la foto. Parece lo más fácil y es donde falla casi todo el mundo. Necesitas una foto de frente, con buena luz, la cara despejada y fondo simple. Nada de lentes de sol ni filtros. Si la IA no ve bien tu cara, va a inventar otra. Te enseño tres fotos mías: esta sirve, esta no, y esta… ni de broma.",
+      "visuales": "Tres fotos con ✔/✘ y explicación rápida de cada una.",
+      "retencion": "Mini-humor y comparación visual de errores."
+    },
+    {
+      "nombre": "paso_2_version_anime",
+      "inicio_seg": 130,
+      "narracion": "Paso 2: tu versión anime. Subes la foto como imagen de referencia en un generador de imágenes con IA y describes al personaje: color de pelo, ropa, personalidad, ambiente. Yo escribí: 'personaje de anime original, pelo turquesa en punta, chaqueta urbana, mirada decidida, estilo cel-shading, iluminación dramática'. Fíjate: no puse el nombre de ningún anime ni de ningún estudio. Genera varias versiones y quédate con la que tenga más 'tú'. Muchas herramientas tienen plan gratuito o créditos de prueba, pero cambian seguido, así que revisa las condiciones actuales en la descripción.",
+      "visuales": "Grabación de pantalla del generador; el prompt resaltado palabra por palabra; cuadrícula con 4 variantes.",
+      "retencion": "Prompt mostrado en pantalla para que lo copien (pausa el video)."
+    },
+    {
+      "nombre": "paso_3_personaje_consistente",
+      "inicio_seg": 250,
+      "narracion": "Paso 3, el truco del que te hablé: hacer que tu personaje sea SIEMPRE el mismo. El problema número uno del anime con IA es que en cada escena el personaje sale con otra cara. La solución: crea una 'hoja de personaje', una imagen con tu personaje de frente, de perfil y de espalda, y úsala como referencia en TODAS las escenas que generes después. Varias herramientas ya tienen funciones de personaje consistente o de referencia de sujeto. Y un consejo extra: guarda siempre el mismo prompt base y solo cambia la acción y el escenario.",
+      "visuales": "Hoja de personaje frente/perfil/espalda; comparación lado a lado 'sin referencia' (caras distintas) vs 'con referencia' (misma cara).",
+      "retencion": "Se cierra el loop abierto del gancho con un antes/después claro."
+    },
+    {
+      "nombre": "cta",
+      "inicio_seg": 360,
+      "narracion": "Si quieres la plantilla del prompt y de la hoja de personaje que usé, te la dejo gratis en la descripción. Y si te suscribes, el próximo video es un reto: hacer un anime completo con IA en 24 horas.",
+      "visuales": "Vista previa de la plantilla y botón de suscripción.",
+      "retencion": "CTA después del paso más valioso, con un recurso concreto y la promesa del siguiente video."
+    },
+    {
+      "nombre": "paso_4_movimiento_y_voz",
+      "inicio_seg": 385,
+      "narracion": "Paso 4: darle vida. Con tu imagen de referencia, un generador de video con IA puede animar clips cortos: que gire la cabeza, que el pelo se mueva con el viento, que cargue energía. Mi consejo: haz clips cortos de pocos segundos y luego los unes en el editor; los clips largos se deforman más. Después, la voz: puedes grabarla tú y aplicarle un efecto, o usar una herramienta de voz con IA. Ojo: usa tu propia voz o voces con licencia, nunca clones la voz de otra persona sin permiso.",
+      "visuales": "Clips de 3-5 s del personaje animándose; línea de tiempo del editor uniendo clips; forma de onda de la voz.",
+      "retencion": "Pattern interrupt: primera vez que se oye hablar al personaje."
+    },
+    {
+      "nombre": "el_debate",
+      "inicio_seg": 480,
+      "narracion": "Ahora, lo prometido: la polémica. Este año hubo fans muy molestos al descubrir IA en el opening de un anime de temporada, y el estudio tuvo que reconocerlo y prometer rehacer la escena a mano. Entiendo a los animadores y a los fans: el anime es un arte hecho a mano y nadie quiere que se use la IA para recortar a quienes lo hacen. Mi postura es esta: uso la IA para crear MIS personajes y MIS historias, no para copiar el trabajo de otros. Y tú, ¿qué opinas? Te leo en los comentarios.",
+      "visuales": "Titulares de la noticia en pantalla (sin imágenes oficiales del anime); el creador en la versión anime 'pensativo'.",
+      "retencion": "Pregunta abierta que provoca comentarios y debate."
+    },
+    {
+      "nombre": "cierre",
+      "inicio_seg": 560,
+      "narracion": "Repaso: buena foto, versión anime con referencia, hoja de personaje para que sea siempre el mismo, y clips cortos con voz. Si lo haces, súbelo y etiquétame, que quiero ver tu personaje. Y si quieres ver qué pasa cuando intento hacer un anime completo en solo 24 horas, el video está aquí.",
+      "visuales": "Resumen en 4 viñetas; pantalla final con el siguiente video.",
+      "retencion": "Invitación a participar y enlace al siguiente video (sesión más larga)."
+    }
+  ],
+  "fuentes": [
+    "Polémica del opening con IA en Ascendance of a Bookworm T4 (WIT Studio, abril 2026): automaton-media.com.",
+    "Consistencia de personaje como principal dificultad del anime con IA y uso de imágenes de referencia: aiindigo.com/blog/anime-ai-studio-review-the-state-of-ai-animation-in-2026, vidu.com/blog/ai-animation-generator.",
+    "Planes gratuitos y precios de las herramientas: verificar en la web de cada herramienta en la fecha de publicación."
+  ],
+  "notas_para_editor": "Ritmo rápido; cada paso con su número grande. Mostrar el proceso real en pantalla (grabación del generador), no solo resultados: es el aporte que diferencia el video. Nada de imágenes oficiales de animes. En la descripción, enlaces a las herramientas usadas (afiliados) y la plantilla gratis."
+}
