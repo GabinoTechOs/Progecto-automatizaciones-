@@ -1,0 +1,107 @@
+{
+  "ranking": [
+    {
+      "nicho": "crear anime y animación con IA (tutoriales)",
+      "demanda": 8,
+      "competencia": 4,
+      "rpm_estimado_usd": "3-8 (tecnología/herramientas, audiencia hispana)",
+      "potencial_afiliados": 9,
+      "viabilidad_faceless": 9,
+      "evergreen": 6,
+      "puntuacion_total": 75,
+      "subnichos_recomendados": [
+        "Crea tu propio personaje de anime con IA (de cero a video)",
+        "Comparativas de herramientas de IA para animación estilo anime",
+        "Haz un opening/AMV original con IA (personajes propios)"
+      ],
+      "riesgos": [
+        "Copyright: nunca recrear personajes de anime existentes (Naruto, One Piece...); solo personajes originales.",
+        "Las herramientas cambian rápido: los tutoriales caducan en meses (hay que actualizarlos).",
+        "Contenido 100 % generado sin aporte propio puede caer en 'inauténtico'; el valor está en enseñar el proceso."
+      ],
+      "justificacion": "Une la pasión de la audiencia de anime (vistas y comunidad) con el nicho de herramientas de IA (RPM medio y afiliados recurrentes del 20-22 % como ElevenLabs o HeyGen). En español no aparece un referente claro: competencia baja. Es 100 % faceless y el propio tutorial es el aporte creativo que exige YouTube."
+    },
+    {
+      "nicho": "noticias y herramientas de IA explicadas en español",
+      "demanda": 9,
+      "competencia": 7,
+      "rpm_estimado_usd": "4-11",
+      "potencial_afiliados": 9,
+      "viabilidad_faceless": 8,
+      "evergreen": 4,
+      "puntuacion_total": 70,
+      "subnichos_recomendados": [
+        "IA explicada para jóvenes con ejemplos de anime y videojuegos",
+        "La herramienta de IA de la semana: probada a fondo"
+      ],
+      "riesgos": [
+        "Ya hay referentes fuertes (DotCSV, Academia IA Lab).",
+        "Las noticias caducan rápido: hay que publicar muy pronto para captar el pico."
+      ],
+      "justificacion": "Demanda máxima y RPM mejor que el promedio, pero el enfoque generalista ya está ocupado. Funciona mejor como pilar secundario con un ángulo propio."
+    },
+    {
+      "nicho": "IA para ganar dinero y productividad",
+      "demanda": 8,
+      "competencia": 9,
+      "rpm_estimado_usd": "5-12",
+      "potencial_afiliados": 8,
+      "viabilidad_faceless": 9,
+      "evergreen": 5,
+      "puntuacion_total": 66,
+      "subnichos_recomendados": [
+        "IA para freelancers creativos (ilustradores, editores)"
+      ],
+      "riesgos": [
+        "Muy saturado y con mala reputación (promesas de dinero fácil).",
+        "Riesgo de prometer ganancias, que choca con tus reglas del canal."
+      ],
+      "justificacion": "Paga bien, pero es el más saturado y el más fácil de convertir en clickbait. No conviene como nicho principal."
+    },
+    {
+      "nicho": "teorías, lore y explicaciones de anime",
+      "demanda": 8,
+      "competencia": 7,
+      "rpm_estimado_usd": "1-4",
+      "potencial_afiliados": 3,
+      "viabilidad_faceless": 7,
+      "evergreen": 8,
+      "puntuacion_total": 54,
+      "subnichos_recomendados": [
+        "Explicaciones de lore con ilustraciones propias en lugar de clips"
+      ],
+      "riesgos": [
+        "Los clips de anime reciben reclamos de Content ID en horas; Toei y otras productoras han dado strikes.",
+        "RPM bajo de entretenimiento."
+      ],
+      "justificacion": "Genera muchas vistas y es muy evergreen, pero monetiza poco y obliga a evitar las imágenes oficiales del anime."
+    },
+    {
+      "nicho": "noticias y recomendaciones de anime",
+      "demanda": 9,
+      "competencia": 8,
+      "rpm_estimado_usd": "1-4",
+      "potencial_afiliados": 4,
+      "viabilidad_faceless": 6,
+      "evergreen": 2,
+      "puntuacion_total": 49,
+      "subnichos_recomendados": [
+        "Recomendaciones de temporada en Shorts"
+      ],
+      "riesgos": [
+        "Copyright muy alto: noticias y recomendaciones casi siempre usan imágenes oficiales.",
+        "Las noticias caducan en días; compites con Crunchyroll y las cuentas oficiales."
+      ],
+      "justificacion": "Mucha demanda, pero RPM bajo, contenido que caduca y el mayor riesgo de copyright. Útil solo como Shorts de tendencia."
+    }
+  ],
+  "recomendacion": "Lanza un canal de 'IA + anime': tutoriales para crear anime y contenido estilo anime con IA, usando personajes originales, más un pilar de herramientas y noticias de IA explicadas con ejemplos otaku. Es donde coinciden tus dos intereses, la tendencia del momento, afiliados recurrentes y poca competencia en español. Deja las noticias y el lore de anime puro para Shorts puntuales de tendencia, sin clips oficiales.",
+  "posicionamiento": "El canal en español donde aprendes a crear tu propio anime con IA: personajes, ilustraciones, voces y animación, paso a paso y con herramientas probadas de verdad.",
+  "pilares_de_contenido": [
+    "Tutoriales: crea tu personaje/escena/opening de anime con IA de principio a fin",
+    "Pruebas y comparativas de herramientas de IA para imagen, voz y animación",
+    "Noticias de IA que afectan a creadores y a la industria del anime",
+    "Retos y experimentos: 'hice un anime con IA en 24 horas'",
+    "Shorts de tendencia: el antes/después y el resultado final de cada tutorial"
+  ]
+}

@@ -1,18 +1,19 @@
 # Copia este archivo a config/canal.yaml y edítalo con los datos de TU canal.
-nombre: "Mi Canal"
+nombre: "Anime IA Lab"   # nombre provisional: cámbialo
 idioma: "español"
 pais_objetivo: "LATAM + España + hispanos en EE.UU."
 
 # Si aún no tienes nicho, deja una lista de candidatos y corre: ytauto nicho
-nicho: "finanzas personales para jóvenes latinos"
+nicho: "crear anime y contenido estilo anime con IA (tutoriales, herramientas y noticias de IA)"
 nichos_candidatos:
-  - "finanzas personales para jóvenes latinos"
-  - "inteligencia artificial para emprendedores"
-  - "historia y misterios"
-  - "tecnología y gadgets baratos"
+  - "crear anime y animación con IA (tutoriales)"
+  - "noticias y herramientas de IA explicadas en español"
+  - "IA para ganar dinero y productividad"
+  - "teorías, lore y explicaciones de anime"
+  - "noticias y recomendaciones de anime"
 
-audiencia: "personas de 18 a 35 años que quieren ganar y ahorrar más dinero"
-tono: "cercano, directo, con datos concretos y algo de humor"
+audiencia: "fans del anime y creadores de 16 a 34 años que quieren crear sus propios personajes, ilustraciones y videos con IA"
+tono: "entusiasta y otaku pero práctico: se muestra el proceso real, incluidos los errores"
 formato: "faceless"          # faceless | con_cara | mixto
 duracion_objetivo_min: 10    # videos largos
 shorts_por_video: 3
@@ -26,13 +27,15 @@ shorts_por_semana: 7
 
 # Fuentes de ingresos que quieres activar (ver docs/ESTRATEGIA.md)
 monetizacion:
+  - afiliados          # herramientas de IA con comisión recurrente (ElevenLabs, HeyGen...)
   - adsense
-  - afiliados
-  - producto_digital
-  - patrocinios
+  - producto_digital  # packs de prompts, plantillas, mini-curso
+  - patrocinios       # herramientas de IA que buscan creadores
 
 # Reglas propias que los agentes deben respetar siempre
 reglas:
-  - "No prometer ganancias garantizadas ni dar consejos financieros personalizados."
+  - "Solo personajes ORIGINALES: nunca recrear personajes, escenas ni estilos registrados de animes existentes."
+  - "No usar clips ni imágenes oficiales de anime (Content ID/strikes); hablar de animes solo con material propio."
+  - "Mostrar siempre el proceso y la opinión propia: nada de videos 100 % generados sin aporte."
   - "Citar la fuente de cada dato o cifra."
   - "Nada de clickbait engañoso: el título y la miniatura deben cumplirse en el video."
